@@ -141,4 +141,38 @@ img {
     
  }
 
+
  
+ /* responsive phone */ 
+
+ @media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+        padding-block: 50px;
+    }
+
+    .container .row{
+        width: 100%;
+        flex-direction: column;
+        gap: 40px; 
+    }
+    
+    .container .row .col{
+        width: 100%;
+    }
+    
+    .why-us .col-left , .why-us .col-right {
+        width: 100%; 
+    }
+
+    .why-us {
+        background-color: #424242; 
+        margin-bottom: 0;
+    }
+
+    .why-us, .steps{ 
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+ }
